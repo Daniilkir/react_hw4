@@ -1,0 +1,56 @@
+.profile {
+    width: 280px;
+    background-color: #f3f6f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.tag, .location {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+
+}
+
+.stats li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.likes {
+    font-size: 14px;
+    color: #999;
+}
+
+.followers {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
